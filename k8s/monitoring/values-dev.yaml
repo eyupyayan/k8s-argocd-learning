@@ -1,0 +1,7 @@
+grafana:
+  enabled: true
+prometheus:
+  prometheusSpec:
+    retention: 3d
+
+# Dev: vi lar alt være relativt default ellers.
