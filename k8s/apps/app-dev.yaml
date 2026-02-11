@@ -11,10 +11,11 @@ spec:
     path: k8s/myapp/overlays/dev
   destination:
     server: https://kubernetes.default.svc
-    namespace: myapp-prod
+    namespace: dev
   syncPolicy:
     automated:
       prune: true
       selfHeal: true
     syncOptions:
       - CreateNamespace=true
+
