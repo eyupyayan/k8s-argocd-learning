@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/<github_user>/k8s-argocd-learning.git
+    repoURL: https://github.com/eyupyayan/k8s-argocd-learning.git
     targetRevision: master
     path: k8s/myapp/overlays/prod
   destination:
@@ -18,3 +18,4 @@ spec:
       selfHeal: true
     syncOptions:
       - CreateNamespace=true
+
