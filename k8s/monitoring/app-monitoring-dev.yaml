@@ -11,7 +11,7 @@ spec:
     targetRevision: 81.5.1
     helm:
       valueFiles:
-        - https://raw.githubusercontent.com/<github_user>/<repo>/main/k8s/monitoring/values-dev.yaml
+        - https://raw.githubusercontent.com/eyupyayan/k8s-argocd-learning/master/k8s/monitoring/values-dev.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: monitoring

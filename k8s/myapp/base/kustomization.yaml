@@ -7,4 +7,5 @@ resources:
   - configmap.yaml
   - service.yaml
   - hpa.yaml
+  - servicemonitor.yaml
 
